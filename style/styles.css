@@ -1,10 +1,11 @@
 body {
-    margin: 0px;
-    padding: 0;
+    margin: 0px !important;
+    padding: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
     text-decoration: none;
+
 
 }
 
@@ -12,7 +13,7 @@ body {
 
 section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -72,7 +73,16 @@ section.ph7 {
     background: url('../img/boracay.jpeg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 
+
+}
+
+section.ph8 {
+    background: url('../img/final.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 
 
 }
@@ -91,6 +101,16 @@ section.ph7 {
 }
 
 
+.pamagat{
+    margin:0;
+    color: #E9E9E9;
+    opacity: 0.8;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 50%;
+    padding-left: 50%;
+    transform: translate(-25%, -35%);
+}
 
 
 h1 {
@@ -275,12 +295,13 @@ h1 {
 }
 
 
+
 @media(max-width:648px) {
 
     body,
     html {
         margin: 0;
-        padding:0;
+        padding: 0;
     }
 
     .nav-contain {
@@ -293,8 +314,35 @@ h1 {
         height: auto;
         letter-spacing: 5px;
         color: whitesmoke;
+        padding-top: 20px;
     }
 
+    section.ph0,
+    section.ph1,
+    section.ph2,
+    section.ph3,
+    section.ph4,
+    section.ph5,
+    section.ph6,
+    section.ph7,
+    section.ph8 {
+        background-size: cover;
+        background-attachment: fixed;
+        
 
+
+    }
+
+    .pamagat{
+        margin:0;
+        color: #E9E9E9;
+        opacity: 0.8;
+        font-weight: 900;
+        text-align: center;
+        padding-top: 130%;
+        padding-left: 50%;
+        transform: translate(-45%, -40%);
+    }
+    
 
 }
