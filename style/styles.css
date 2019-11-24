@@ -274,53 +274,6 @@ h1 {
     padding-top: 10px;
 }
 
-@media all and (max-width: 1121px) {
-    /* your content here */
 
-    .nav-contain {
-        position: absolute;
-        font-family: "Lato", sans-serif;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-}
 
-@media all and (max-width: 518px) {
 
-    /* your content here */
-    .nav-contain {
-        position: absolute;
-        font-family: "Lato", sans-serif;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .nav-contain a {
-        border-radius: 5px;
-        display: block;
-        color: #536dfe;
-        text-transform: uppercase;
-        padding: 15px 0 15px 10px;
-        margin: 5px;
-        width: 200px;
-        letter-spacing: 5px;
-        box-shadow: 0px 2px 5px 0px black;
-        position: relative;
-        margin-left: -70%;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        font-size: 15px;
-    }
-}
-
-@media all and (max-width: 508px) {
-    /* your content here */
-
-    .nav-contain {
-        text-align: left;
-    }
-
-    .nav-contain a {
-        font-size: 12px;
-    }
-}
