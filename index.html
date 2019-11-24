@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <section class="ph0" data-stellar-background-ratio="0.8">
+    <section class="ph0">
 
     </section>
 
@@ -42,7 +42,7 @@
     </section>
 
 
-    <section class="ph2" data-stellar-background-ratio="0.8">
+    <section class="ph2">
         <div class="prov">
             <div class="container">
                 <h1> Manila</h1>
@@ -68,7 +68,7 @@
 
 
 
-    <section class="ph3" data-stellar-background-ratio="0.8">
+    <section class="ph3">
         <div class="prov">
             <div class="container">
                 <h1> Cebu </h1>
@@ -92,7 +92,7 @@
     </section>
 
 
-    <section class="ph4" data-stellar-background-ratio="0.8">
+    <section class="ph4">
         <div class="prov">
             <div class="container">
                 <h1> La Union</h1>
@@ -115,7 +115,7 @@
         </div>
     </section>
 
-    <section class="ph5" data-stellar-background-ratio="0.8">
+    <section class="ph5">
         <div class="prov">
             <div class="container">
                 <h1> Davao</h1>
@@ -140,7 +140,7 @@
         </div>
     </section>
 
-    <section class="ph6" data-stellar-background-ratio="0.8">
+    <section class="ph6">
         <div class="prov">
             <div class="container">
                 <h1> Baguio</h1>
@@ -164,7 +164,7 @@
 
 
 
-    <section class="ph7" data-stellar-background-ratio="0.8">
+    <section class="ph7">
         <div class="prov">
             <div class="container">
                 <h1> Aklan</h1>
@@ -202,12 +202,21 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
 
-    <script src="js/jquery.stellar.js"></script>
-    <script src="js/main.js"></script>
-    <script type="text/javascript">
-        $('body').stellar();
+    <script>
+        window.onload = function () {
+            lax.setup() // init
+
+            const updateLax = () => {
+                lax.update(window.scrollY)
+                window.requestAnimationFrame(updateLax)
+            }
+
+            window.requestAnimationFrame(updateLax)
+        }
     </script>
+
 </body>
 
 </html>
