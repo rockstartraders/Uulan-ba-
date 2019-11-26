@@ -16,17 +16,23 @@
 
 <body>
 
+
     <section class="ph0">
-    
-         <h1 class="pamagat">WELCOME</h1>
-        
+
+
+        <h1 class="pamagat"> WELCOME</h1>
+
+
     </section>
+
 
     <section class="ph1">
 
-        <div class="prov">
+        <div class="prov rellax" data-rellax-speed="1">
             <div class="container">
+
                 <h1> Cavite</h1>
+
                 <a class="weatherwidget-io" href="https://forecast7.com/en/14d25120d88/cavite/" data-font="Verdana"
                     data-icons="Climacons Animated" data-days="3" data-theme="pure" data-basecolor="rgba(0, 0, 0, 0.1)"
                     data-accent="" data-textcolor="#fff7f7" data-mooncolor="#f8f3f3" data-cloudcolor="#f7f0f0"
@@ -43,8 +49,9 @@
                     }(document, 'script', 'weatherwidget-io-js');
                 </script>
                 <br>
-
             </div>
+
+
         </div>
     </section>
 
@@ -52,7 +59,7 @@
     <!-- para Laxx class="lax" data-lax-scale-y="0 0, 400, -600" -->
     <section class="ph2">
 
-        <div class="prov">
+            <div class="prov rellax" data-rellax-speed="1">
             <div class="container">
                 <h1> Manila</h1>
 
@@ -82,7 +89,7 @@
 
     <section class="ph3">
 
-        <div class="prov">
+            <div class="prov rellax" data-rellax-speed="1">
             <div class="container">
                 <h1> Cebu </h1>
                 <a class="weatherwidget-io" href="https://forecast7.com/en/10d32123d89/cebu-city/" data-font="Verdana"
@@ -110,7 +117,7 @@
 
     <section class="ph4">
 
-        <div class="prov">
+            <div class="prov rellax" data-rellax-speed="1">
             <div class="container">
                 <h1> La Union</h1>
                 <a class="weatherwidget-io" href="https://forecast7.com/en/16d62120d32/la-union/" data-font="Verdana"
@@ -138,7 +145,7 @@
 
     <section class="ph5">
 
-        <div class="prov">
+            <div class="prov rellax" data-rellax-speed="1">
             <div class="container">
                 <h1> Davao</h1>
 
@@ -168,7 +175,7 @@
 
     <section class="ph6">
 
-        <div class="prov">
+            <div class="prov rellax" data-rellax-speed="1">
             <div class="container">
                 <h1> Baguio</h1>
                 <a class="weatherwidget-io" href="https://forecast7.com/en/16d40120d60/baguio/" data-font="Verdana"
@@ -197,7 +204,7 @@
 
     <section class="ph7">
 
-        <div class="prov">
+            <div class="prov rellax" data-rellax-speed="1">
             <div class="container">
                 <h1> Aklan</h1>
                 <a class="weatherwidget-io" href="https://forecast7.com/en/11d82122d09/aklan/" data-font="Verdana"
@@ -239,21 +246,16 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
-
+    <script src="js/rellax.min.js"></script>
     <script>
-        window.onload = function () {
-            lax.setup() // init
-
-            const updateLax = () => {
-                lax.update(window.scrollY)
-                window.requestAnimationFrame(updateLax)
-            }
-
-            window.requestAnimationFrame(updateLax)
-        }
+        // Accepts any class name
+        var rellax = new Rellax('.rellax', {
+            center: true
+        });
     </script>
 
+
+    </div>
 </body>
 
 </html>
