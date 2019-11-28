@@ -1,7 +1,4 @@
 
-html {
-    scroll-behavior: smooth;
-  }
   
 
 body {
@@ -84,14 +81,7 @@ section.ph7 {
 
 }
 
-section.ph8 {
-    background: url('../img/final.jpeg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
 
-
-}
 
 .prov {
 
@@ -113,9 +103,8 @@ section.ph8 {
     opacity: 0.8;
     font-weight: 900;
     text-align: center;
-    padding-top: 50%;
-    padding-left: 50%;
-    transform: translate(-25%, -35%);
+    padding-top: 30%;
+    
 }
 
 
@@ -130,6 +119,9 @@ h1 {
 
 }
 
+.rellax{
+    text-align: center;
+}
 
 /* glass */
 
@@ -348,9 +340,10 @@ h1 {
         opacity: 0.8;
         font-weight: 900;
         text-align: center;
-        padding-top: 130%;
-        padding-left: 50%;
-        transform: translate(-45%, -40%);
+        padding-top: 100%;
+       
+       /*  padding-left: 50%;
+        transform: translate(-45%, -40%);  */
     }
     
 
