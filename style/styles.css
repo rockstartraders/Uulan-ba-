@@ -32,6 +32,7 @@ section.ph1 {
     background: url('../img/cavite.jpg');
     background-size: cover;
     background-attachment: fixed;
+    
 
 }
 
@@ -303,6 +304,7 @@ h1 {
     html {
         margin: 0;
         padding: 0;
+        
     }
 
     .nav-contain {
@@ -346,5 +348,4 @@ h1 {
         transform: translate(-45%, -40%);  */
     }
     
-
-}
+  
